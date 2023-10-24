@@ -1,0 +1,118 @@
+.photo-details-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 0 50vmax rgba(8, 8, 8, 0.669);
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 98vh;
+  width: 60vw;
+  max-height: calc(100vh - 40px);
+  max-width: calc(100vw - 40px);
+  overflow-y: scroll;
+  border-radius: 12px;
+}
+
+.photo-details-modal--close-button {
+  background-color: white;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+// SIMILAR PHOTOS
+
+.photo-details-modal-similar--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 12px 12px;
+}
+
+.photo-details-modal--images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  // margin-left: 50px;
+  // margin-right: 65px;
+  
+  margin-top: 8px;
+}
+// MAIN PHOTO
+
+.photo-details-modal--image {
+  margin-left: 120px;
+  width: 80%;
+  // border-bottom: 2px solid;
+}
+
+.photo-details-modal--user-profile {
+  object-fit: cover;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.photo-details-modal--user-details {
+  display: flex;
+}
+
+.photo-details-modal--user {
+  margin-top: 12px;
+  // margin-left: 60px;
+  font-weight: bold;
+}
+
+.photo-details-modal--userlocation {
+  color: #838383;
+}
+            
+
+.photo-details-modal--favicon {
+  position: relative;
+  top: 5px;
+  left: 140px;
+}
+
+.photo-details-modal--top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.photo-details-modal--photographer-details {
+  display: flex;
+  font-size: 16px;
+}
+
+.photo-details-modal--header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-top: 24px;
+  margin-bottom: 2px;
+  padding-left: 30px;
+  width: 90%;
+}
+
+.horizontal-break {
+  margin-left: 12px;
+  margin-right: 12px;
+}

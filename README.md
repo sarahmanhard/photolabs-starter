@@ -1,5 +1,6 @@
 # react-photolabs
 The PhotoLabs project for the Web Development React course programming.
+The project is built using React, Node.js, Express, and PostgreSQL.
 
 # Photolabs
 

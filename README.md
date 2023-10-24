@@ -2,6 +2,7 @@
 The PhotoLabs project for the Web Development React course programming.
 The project is built using React, Node.js, Express, and PostgreSQL.
 
+![image](https://github.com/sarahmanhard/photolabs-starter/assets/128875282/fc02466a-8255-4c6b-b94d-85720828a615)
 # Photolabs
 
 ## Setup
